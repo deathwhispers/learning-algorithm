@@ -8,19 +8,18 @@ package com.guangjian.algorithm.easy;
  * <p>
  * 示例 1：
  * <p>
- * 输入：strs = ["flower","flow","flight"] <br/>
- * 输出："fl"
+ * <lu>
+ * <li>输入：strs = ["flower","flow","flight"]</li>
+ * <li>输出："fl"</li>
+ * </lu>
  * <p>
  * 示例 2：
  * <p>
- * 输入：strs = ["dog","racecar","car"] <br/>
- * 输出：""
+ * <lu>
+ * <li>输入：strs = ["dog","racecar","car"]</li>
+ * <li>输出：""</li>
+ * </lu>
  * 解释：输入不存在公共前缀。
- * <p>
- * <p>
- * 来源：力扣（LeetCode）
- * 链接：https://leetcode.cn/problems/longest-common-prefix
- * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
  * @author yanggj
  * @version 1.0.0
