@@ -1,24 +1,18 @@
 package com.guangjian.algorithm.easy;
 
 /**
- * 最长公共前缀<br/>
+ * <b>最长公共前缀</b>
+ * <p>
  * 编写一个函数来查找字符串数组中的最长公共前缀。
  * <p>
  * 如果不存在公共前缀，返回空字符串  ""。
  * <p>
- * 示例 1：
- * <p>
- * <lu>
+ * <b>示例 1：</b>
  * <li>输入：strs = ["flower","flow","flight"]</li>
  * <li>输出："fl"</li>
- * </lu>
- * <p>
- * 示例 2：
- * <p>
- * <lu>
+ * <b>示例 2：</b>
  * <li>输入：strs = ["dog","racecar","car"]</li>
  * <li>输出：""</li>
- * </lu>
  * 解释：输入不存在公共前缀。
  *
  * @author yanggj

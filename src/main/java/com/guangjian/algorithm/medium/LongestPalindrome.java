@@ -1,7 +1,7 @@
 package com.guangjian.algorithm.medium;
 
 /**
- * 最长回文字串
+ * <b>最长回文字串</b>
  *
  * @author yanggj
  * @version 1.0.0
@@ -9,8 +9,8 @@ package com.guangjian.algorithm.medium;
  */
 public class LongestPalindrome {
 
-    /*
-    中心扩散法
+    /**
+     * <b>中心扩散法</b>
      */
     public String solution1(String s) {
         if (s == null || s.length() == 0) {
@@ -59,8 +59,8 @@ public class LongestPalindrome {
         return s.substring(maxStart + 1, maxStart + maxLen + 1);
     }
 
-    /*
-    动态规划法
+    /**
+     * <b>动态规划法</b>
      */
     public String solution2(String s) {
         if (s == null || s.length() < 2) {
