@@ -1,7 +1,7 @@
 package com.guangjian.algorithm.doublepointer;
 
 /**
- * <b>到达终点数字</b>
+ * <h1>到达终点数字</h1>
  *
  * @author yanggj
  * @version 1.0.0
@@ -10,8 +10,7 @@ package com.guangjian.algorithm.doublepointer;
 public class ReachNumber {
 
     /**
-     * <b>提示一：数轴上的任意点都以起点（0 点）对称，只需要考虑对称点的任意一边</b>
-     * <p>
+     * <h3>提示一：数轴上的任意点都以起点（0 点）对称，只需要考虑对称点的任意一边</h3>
      * 由于题目没有限制我们「不能到达哪些点」以及「出发的起始方向」，因此以起点为中心的左右两边对称。
      * <p>
      * <b>提示二：先往靠近 target 的方向移动，到达或越过 target 的时候则停止</b>

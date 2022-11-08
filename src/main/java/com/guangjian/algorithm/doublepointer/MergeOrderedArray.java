@@ -3,8 +3,7 @@ package com.guangjian.algorithm.doublepointer;
 import java.util.Arrays;
 
 /**
- * <b>合并两个有序数组</b>
- * <p>
+ * <h1>合并两个有序数组</h1>
  * 给你两个按 <b>非递减顺序</b> 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。
  * <p>
  * 请你 合并 nums2 到 nums1 中，使合并后的数组同样按 <b>非递减顺序</b> 排列。
@@ -20,7 +19,7 @@ import java.util.Arrays;
 public class MergeOrderedArray {
 
     /**
-     * <b>借助额外空间+双指针</b>
+     * <h3>借助额外空间+双指针</h3>
      * 创建一个 m + n长度的新数组 arr,存放合并后的数据
      * 使用双指针,将 nums1 和 nums2 中的数据迁移到 arr 中
      * 最后将 arr 写回 nums1
@@ -56,7 +55,7 @@ public class MergeOrderedArray {
     }
 
     /**
-     * <b>先合并再排序</b>
+     * <h3>先合并再排序</h3>
      */
     public void merge2(int[] nums1, int m, int[] nums2, int n) {
         // 将 nums2 中的元素合并到 nums1(m ,m + n) 中
@@ -66,7 +65,7 @@ public class MergeOrderedArray {
     }
 
     /**
-     * <b>原地合并(从前往后)</b>
+     * <h3>原地合并(从前往后)</h3>
      * 直接在 nums1 上进行合并操作
      * <ul>
      *  <li>nums1[i] > nums2[j]: 交换两数;
@@ -97,7 +96,7 @@ public class MergeOrderedArray {
     }
 
     /**
-     * <b>原地合并(从后到前)</b>
+     * <h3>原地合并(从后到前)</h3>
      */
     public void merge4(int[] nums1, int m, int[] nums2, int n) {
         int idx = m + n - 1;

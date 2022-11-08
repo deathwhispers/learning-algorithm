@@ -1,7 +1,7 @@
 package com.guangjian.algorithm.doublepointer;
 
 /**
- * <b>最大连续 1 的个数</b>
+ * <h1>最大连续 1 的个数</h1>
  * 给定一个二进制数组 nums ， 计算其中最大连续 1 的个数。
  *
  * @author yanggj

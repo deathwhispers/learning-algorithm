@@ -1,7 +1,7 @@
 package com.guangjian.algorithm.doublepointer;
 
 /**
- * <b>移除元素</b>
+ * <h1>移除元素</h1>
  * 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
  * <p>
  * 不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。
@@ -16,7 +16,7 @@ package com.guangjian.algorithm.doublepointer;
 public class RemoveElement {
 
     /**
-     * <b>双指针解法</b>
+     * <h3>双指针解法</h3>
      * 根据题意，我们可以将数组分成「前后」两段：
      * <ul>
      *  <li>前半段是有效部分，存储的是不等于 val 的元素。</li>
@@ -41,8 +41,7 @@ public class RemoveElement {
     }
 
     /**
-     * <b>通用解法</b>
-     * <p>
+     * <h3>通用解法</h3>
      * 先设定变量 idx ，指向待插入位置。 idx 初始值为 0
      * <p>
      * 然后从题目的「要求/保留逻辑」出发，来决定当遍历到任意元素 x 时，应该做何种决策：

@@ -1,8 +1,7 @@
 package com.guangjian.algorithm.doublepointer;
 
 /**
- * <b>删除有序数组中的重复项</b>
- * <p>
+ * <h1>删除有序数组中的重复项</h1>
  * 给你一个有序数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删
  * 除后数组的新长度。
  * <p>
@@ -16,8 +15,7 @@ package com.guangjian.algorithm.doublepointer;
 public class RemoveDuplicates {
 
     /**
-     * 使用双指针法
-     * <p>
+     * <h3>使用双指针法</h3>
      * 指针 i 指向原数组, j 指向新的数组
      * <p>
      * 当 i,j 所指元素不一样时,将 i 赋值给 j
@@ -38,8 +36,7 @@ public class RemoveDuplicates {
 
 
     /**
-     * <b>扩展：通用解法</b>
-     * <p>
+     * <h3>扩展：通用解法</h3>
      * 为了让解法更具有一般性，我们将原问题的「最多保留 1 位」修改为「最多保留 k 位」。
      * <p>
      * 对于此类问题，我们应该进行如下考虑：
@@ -72,6 +69,7 @@ public class RemoveDuplicates {
     /**
      * <b>基于上述解法我们还能做一点小剪枝：利用目标数组的最后一个元素必然与原数组的最后一个元
      * 素相同进行剪枝，从而确保当数组有超过 k 个最大值时，数组不会被完整扫描。</b>
+     * <p>
      * <b>但需要注意这种「剪枝」同时会让我们单次循环的常数变大，所以仅作为简单拓展。</b>
      */
     public int removeDuplicatesExt2(int[] nums) {

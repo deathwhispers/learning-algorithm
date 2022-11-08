@@ -3,8 +3,7 @@ package com.guangjian.algorithm.doublepointer;
 import java.util.HashMap;
 
 /**
- * <b>无重复字符的最长子串</b>
- * <p>
+ * <h1>无重复字符的最长子串</h1>
  * 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串的长度。
  *
  * @author yanggj

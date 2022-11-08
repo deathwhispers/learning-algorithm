@@ -1,7 +1,7 @@
 package com.guangjian.algorithm.doublepointer;
 
 /**
- * <b>压缩字符串</b>
+ * <h1>压缩字符串</h1>
  * 给你一个字符数组 chars ，请使用下述算法压缩：
  * <p>
  * 从一个空字符串 s 开始。对于 chars 中的每组 连续重复字符 ：

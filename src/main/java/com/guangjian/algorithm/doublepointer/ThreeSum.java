@@ -5,8 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <b>三数之和</b>
- * <p>
+ * <h1>三数之和</h1>
  * 给你一个整数数组 nums ，判断是否存在三元组 [nums[i], nums[j], nums[k]] 满足 i != j、i != k 且 j != k ，同时还满足 nums[i] + nums[j] + nums[k] == 0 。请
  * <p>
  * 你返回所有和为 0 且不重复的三元组。

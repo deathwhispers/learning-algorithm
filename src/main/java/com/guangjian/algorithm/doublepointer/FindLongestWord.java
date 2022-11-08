@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <b>通过删除字母匹配到字典里最长单词</b>
+ * <h1>通过删除字母匹配到字典里最长单词</h1>
  * <p>
  * 给你一个字符串 s 和一个字符串数组 dictionary ，找出并返回 dictionary 中最长的字符串，该字符串可以通过删除 s 中的某些字符得到。
  * <p>

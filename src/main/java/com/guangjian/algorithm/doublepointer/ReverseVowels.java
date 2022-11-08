@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * <b>反转元音字母</b>
+ * <h1>反转元音字母</h1>
  * 给你一个字符串 s ，仅反转字符串中的所有元音字母，并返回结果字符串。
  * <p>
  * 元音字母包括 'a'、'e'、'i'、'o'、'u'，且可能以大小写两种形式出现。
@@ -26,7 +26,7 @@ public class ReverseVowels {
     }
 
     /**
-     * <b>双指针法</b>
+     * <h3>双指针法</h3>
      * 左右指针分别指向字符串的头尾，若两者均为元音字符，则交换位置并移动指针
      */
     public String reverseVowels(String s) {
