@@ -86,7 +86,6 @@ public class RemoveNthFromEnd {
         }
         // 删除节点
         slow.next = slow.next.next;
-        ListNode ans = dummy.next;
-        return ans;
+        return dummy.next;
     }
 }

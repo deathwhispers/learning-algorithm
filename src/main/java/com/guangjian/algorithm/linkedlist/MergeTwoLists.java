@@ -39,16 +39,12 @@ public class MergeTwoLists {
                 list2 = list2.next;
             }
         }
-        // 剩余链表中还未添加的元素，依次添加至链尾
-        while (list1 != null) {
+        // 剩余链表中还未添加的元素，添加至链尾
+        if (list1 != null) {
             cur.next = list1;
-            cur = cur.next;
-            list1 = list1.next;
         }
-        while (list2 != null) {
+        if (list2 != null) {
             cur.next = list2;
-            cur = cur.next;
-            list2 = list2.next;
         }
         return dummy.next;
     }
