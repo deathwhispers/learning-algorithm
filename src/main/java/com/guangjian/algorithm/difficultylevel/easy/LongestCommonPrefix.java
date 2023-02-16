@@ -1,4 +1,4 @@
-package com.guangjian.algorithm.easy;
+package com.guangjian.algorithm.difficultylevel.easy;
 
 /**
  * <b>最长公共前缀</b>
