@@ -1,4 +1,4 @@
-package com.guangjian.algorithm.difficultylevel.medium;
+package com.guangjian.algorithm.daily;
 
 /**
  * <b>最长回文字串</b>
