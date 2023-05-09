@@ -1,4 +1,4 @@
-package com.guangjian.algorithm.bsf;
+package com.guangjian.algorithm.graph.bfs;
 
 import java.util.List;
 
@@ -15,6 +15,6 @@ import java.util.List;
 public class SubsetsWithDup {
 
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-
+        return null;
     }
 }
